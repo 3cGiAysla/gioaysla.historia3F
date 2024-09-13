@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>aventura no parque</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/imagem 0 (do começo).avif" alt="">
+            <p>Em uma noite quente quatro amigas,Helen,Joana,marina e Maria,decideram passear em um parque de diversões,onde todas tinham muita vontade de ir,e todas queriam ir em brinquedos radicais</p>
+            <button class="btn-proximo" data-proximo="1">Montanha-Russa</button>
+            <button class="btn-proximo" data-proximo="2">Kamikaze</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/fila da montanha-russa.jpg" alt="">
+            <p>Tudo começou na fila,Marina e Helen começou a sentir uma energia estranha e pediram para que as amigas nao entrassem.</p>
+            <button class="btn-proximo" entrar na montanha-russa="3">Procurar a pista no topo do pico</button>
+            <button class="btn-proximo" ir em outro brinquedo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/" alt="">
+            <p> As quatros amigas estavam com muita vontade de ir nesse brinquedo 
+                Porem,elas nao tinha ideai do que podia acontecer se fossem nesse brinquedo primeiro 
+                O que acontece se elas forem no Kamikaze primeiro?</p>
+            <button class="btn-proximo" data-proximo="5">na fila do brinquedo</button>
+            <button class="btn-proximo" data-proximo="6">pensando se entram ou não</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p> No momento em que elas entram,ja bate o arrepedimento em todas</p>
+            <button class="btn-proximo" data-proximo="7">continuar no brinquedo ou não ?</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/montanha-russa.jpg" alt="">
+            <p>Todas ficam mais confiantes em ir em outro brinquedo</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Todas entram super animadas,porem com um pouco de medo por conta do brinquedo ser um pouco radical</p>
+            <button class="btn-proximo" data-proximo="7">começo do brinquedo</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>em duvida ainda se vão no brinquedo ou não,as meninas com um certo receio decide não ir</p>
+            <button class="btn-proximo" data-proximo="8">na volta pra casa</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/kamikazze imagem sla.jpg" alt="">
+            <p>Elas decidem sair do brinquedo,e ir no Kamikaze.</p>
+            <button class="btn-proximo" data-proximo="9">continuar no brinquedo</button>
+            <button class="btn-proximo" data-proximo="10">brinquedo deu problema</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="img/caminho de casa-pipoca.jfif" alt="">
+            <p>Enquanto elas estavam fazendo o caminho para ir embora,encontraram uma barraquinha de pipoca e decide parar pra comer</p>
+            <button class="btn-proximo" data-proximo="7">final do passeio</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>elas estavam ansiosas,para que o brinquedo começasse a funcionar logo,e no final do brinquedo todas sairam felizes e adoraram a aventura</p>
+            <button class="btn-proximo" data-proximo="11">volta pra casa</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>as amigas estavam animadas para que o brinquedo começasse logo,porem,elas nao sabia o que estava por vim,o brinquedo começou  a fazer um barulho</p>
+            <button class="btn-proximo" data-proximo="12">barulho no brinquedo</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/final-casa da helen (festa do pijama).webp" alt="">
+            <p>depois dessa aventura,elas foram comer pipoca e dormir na casa da Helen</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="img/brinquedo-kamikaze parado.webp" alt="">
+            <p>o barulho foi bem na hora que o brinquedo virou de ponta cabeça,e nisso, ninguem consegiu sair do brinquedo 
+                por fim,todos ficaram presos.</p>
+            <button class="btn-proximo" data-proximo="11">volta pra casa</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
